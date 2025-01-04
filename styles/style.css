@@ -159,9 +159,10 @@ body {
 }
 
 .lots__card-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow-wrap: break-word;
+  gap: 25px;
 }
 
 .lots__card-list-item {
