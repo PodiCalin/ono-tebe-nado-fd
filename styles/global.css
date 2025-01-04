@@ -2,10 +2,14 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
-  width: 1100px;
+  max-width: 1100px;
+  max-height: 3028px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
 }
@@ -26,7 +30,9 @@ blockquote {
 }
 
 a {
+  display: block;
   color: inherit;
+  text-underline-offset: 4px;
 }
 
 img {
