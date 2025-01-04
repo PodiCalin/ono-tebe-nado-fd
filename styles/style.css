@@ -202,15 +202,15 @@ body {
 
 .card__title {
   position: relative;
-  text-decoration: underline;
   text-transform: uppercase;
+  text-decoration: solid underline 1px;
   z-index: 10;
   color: white;
   font-weight: 700;
   font-size: 22px;
   line-height: 26px;
-  text-decoration: solid underline 1px;
 }
+
 .card__text {
   position: relative;
   z-index: 10;
