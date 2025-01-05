@@ -65,6 +65,7 @@ body {
   background-position: center;
   padding: 165px 50px 50px;
   z-index: 0;
+  min-height: 757px;
 }
 
 .overlay {
@@ -73,6 +74,12 @@ body {
   background: black;
   inset: 0;
   z-index: 1;
+}
+
+.cover__title {
+  height: 385px;
+  display: grid;
+  row-gap: 20px;
 }
 
 /*Я знаю , что вы будете ругаться , что лучше использовать классы , но через классы у меня эти свойста не реагируют*/
@@ -305,7 +312,11 @@ li a {
 }
 
 .footer__menu-link_active {
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+.footer__menu-link {
+  text-decoration: underline;
 }
 
 .footer__menu-list-item {
