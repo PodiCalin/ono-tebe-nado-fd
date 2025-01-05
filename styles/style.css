@@ -31,7 +31,7 @@ body {
   list-style: none;
 }
 
-.item__none-decoration {
+.header__link_active {
   text-decoration: none;
 }
 
@@ -77,7 +77,6 @@ body {
 }
 
 .cover__title {
-  height: 385px;
   display: grid;
   row-gap: 20px;
 }
